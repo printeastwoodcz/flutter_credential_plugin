@@ -1,0 +1,25 @@
+name: flutter_credential_picker_example
+description: Demonstrates how to use the flutter_credential_picker plugin.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  flutter_credential_picker:
+    path: ../
+  cupertino_icons: ^1.0.0
+  google_fonts: any
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_driver:
+    sdk: flutter
+  test: any
+
+flutter:
+  uses-material-design: true
